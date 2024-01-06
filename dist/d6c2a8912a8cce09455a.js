@@ -1,0 +1,1 @@
+!(function () { let e = 1; const o = function (e) { return document.getElementById('hole'.concat(e)); }; !(function n() { return setTimeout((() => { let t; o(e).className = 'hole', t = e = Math.floor(1 + 9 * Math.random()), o(t).className = 'hole hole_has-mole', n(); }), 800); }()); }());

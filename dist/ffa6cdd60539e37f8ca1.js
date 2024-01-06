@@ -1,0 +1,1 @@
+function _readOnlyError(e) { throw new TypeError(`"${e}" is read-only`); }!(function () { let e = 1; const o = function (e) { return document.getElementById('hole'.concat(e)); }; !(function n() { return setTimeout((() => { let r; o(e).className = 'hole', r = e = Math.floor(1 + 4 * Math.random()), o(r).className = 'hole hole_has-mole', n(); }), 1e3); }()); }());
