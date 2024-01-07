@@ -1,4 +1,4 @@
-export function Hole() {
+export default function Hole() {
   const playing = true;
   let activeHole = 1;
   // eslint-disable-next-line no-return-assign
