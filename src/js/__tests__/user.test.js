@@ -14,3 +14,10 @@
 //   expect(response).toEqual({});
 //   expect(httpGet).toHaveBeenCalledWith('http://server:8080/users/1');
 // });
+import sum from '../basic';
+
+test('should sum', () => {
+  const result = sum([1, 2, 3]);
+
+  expect(result).toBe(6);
+});
