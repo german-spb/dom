@@ -1,10 +1,10 @@
 .card {
-  width: 500px;
+  width: 800px;
   margin-bottom: 0;
 }
 
 .hole-game {
-  width: 500px;
+  width: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
