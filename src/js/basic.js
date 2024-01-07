@@ -1,4 +1,4 @@
-(() => {
+export function Hole() {
   const playing = true;
   let activeHole = 1;
   // eslint-disable-next-line no-return-assign
@@ -13,9 +13,10 @@
       return;
     }
     deactivateHole(activeHole);
-    activeHole = Math.floor(1 + Math.random() * 4);
+    activeHole = Math.floor(1 + Math.random() * 16);
     activateHole(activeHole);
     next();
   }, 1000);
   next();
-})();
+} Hole();
+
